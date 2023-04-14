@@ -1,0 +1,29 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item .text {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .todo-item .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-item .actions button {
+    margin-left: 10px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: black 1px solid;
+  }
+  
